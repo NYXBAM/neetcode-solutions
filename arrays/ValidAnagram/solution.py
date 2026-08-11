@@ -1,4 +1,6 @@
 class Solution:
+    """But this solution has complexity O(N log N)"""
+
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
@@ -11,6 +13,9 @@ from collections import Counter
 
 
 class FastSolution:
+    """complexity is O(N)
+    Space complexity O(1)"""
+
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
