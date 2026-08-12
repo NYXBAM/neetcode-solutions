@@ -1,4 +1,4 @@
-# This solution has complexity O(n2)
+# This solution has complexity O(n^2)
 class Solution:
     def twoSum(nums: list[int], target: int) -> list[int]:
         i = 0
